@@ -1,0 +1,101 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: dodgerblue;
+} */
+/* box-shadow-> tashqi yoki ichki
+qisimga soya breish */
+/* transform xossalari -> biz kiritgan pixelga qarab cardni hajmini katta yoki kichik
+qilib beradi
+2. rotate(deg)*-> biz kiritgan darajaga qarab kardni aylantirip
+ beradi
+3.translate(px)-> kartni joylashuvini o'zgartiradi
+4. skew(deg) -> kardni egri holatga 
+keltiradi */
+
+
+/* .card{
+    width: 300px;
+    padding: 20px;
+    background-color: crimson;
+    box-shadow: 0 4px 8px rgb(0, 0 , 0.1);
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.card:hover{
+    transform: scale(1.05) rotate(5deg) translate(10px,10px) skew(2deg, 2deg
+    );
+} */
+/* Overflow: visible, hidden, auto,
+scroll
+ */
+ /* overflow-visible-> default holat yani berilgan boxdan
+  tashqarida malumotlar joylashadi */
+
+  /* overflow-auto-> avtomatik
+  tartib joylashadi */
+
+  /* overflow -hidden-> boxdan
+  tashqaridagi so'zlarni yashirib
+  qo'yadi */
+
+  /* overflow - scroll -> x va y o'qi
+  bo'yicha scroll yaratib beradi */
+
+  /* .box{
+    width: 500px;
+    height: 100px;
+    background-color: lightblue;
+    border: 2px solid #000;
+    overflow: auto;
+    margin-top: 250px;
+  } */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(14, 200, 220);
+  }
+  .card{
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(26, 28, 19, 0.862);
+    box-shadow: 0 4px 8px rgb(0, 0 , 0.1);
+    border-radius: 8px;
+    color: rgb(233, 209, 29);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  .text{
+    border-radius: 80px;
+  }
+  .card .text h2{
+    padding-right: 100px;
+  }
+  .card .text span{
+    padding-right: 70vh;
+  }
+  .card .text p{
+    padding-right: 90px;
+  }
+  .card .text .icons{
+    padding-right: 80vh;
+    color: dodgerblue;
+  }
